@@ -1,0 +1,7 @@
+Pass: 1
+Port: 5432
+
+Добавления Миграций:
+remove-migration
+add-migration SSO_Migration
+update-database

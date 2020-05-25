@@ -1,0 +1,50 @@
+version: '3'
+
+networks:
+  dockerapi-dev:
+    driver: bridge 
+
+services:
+#  reverseproxy:
+#    container_name: ReverseProxy
+#    build:
+#      context: ./nginx
+#      dockerfile: Dockerfile
+#    ports:
+#      - "80:80"
+#    restart: always    
+#    networks:
+#      - dockerapi-dev
+
+  postgres_image:
+    container_name: PostgresDbSSO
+    image: postgres:latest
+    ports:
+      - "5432"
+    restart: always
+    #volumes:
+    #  - db_volume:/var/lib/postgresql/data
+    #  - ./dbscripts/seed.sql :/docker-entrypoint-initdb.d/seed.sql
+    environment:
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "gqGGD3LNB52uEJcs"
+      POSTGRES_DB: "SSO_DB"
+    networks:
+      - dockerapi-dev
+
+  SSO:
+    container_name: SSOWebApi
+    image: sso:latest
+    depends_on:
+      - "postgres_image"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "9010:80"     
+    restart: always
+    networks:
+      - dockerapi-dev  
+
+volumes:
+  db_volume:

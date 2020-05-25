@@ -1,0 +1,11 @@
+Variable	Value
+{host}		localhost:5001
+{token}		*CREATED TOKEN VIA LOGIN CHECK REQUEST* 
+
+Example of {token}:
+{
+  "AccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJzcGlkZXJtYW5AZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6InNpcGRyZW5tYSIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMiIsIm5iZiI6MTU3NDM1MTkxNSwiZXhwIjoxNTc0MzUzNzE1LCJpc3MiOiJBbGFuVGVzdGluZ1N0dWZmIiwiYXVkIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTAwMS8ifQ.hikXwCXPPxivpL6ayE3n4z1EVs0VQzNCeBdQTMKAIHY",
+  "TokenType": "JWT",
+  "UserName": "sipdrenma",
+  "ExpirationDate": 1574353715
+}

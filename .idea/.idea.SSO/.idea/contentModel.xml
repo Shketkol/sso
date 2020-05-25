@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.Rider2019.3/system/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.3/system/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_SSO.-184862466.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="SSO" t="IncludeRecursive">
+        <e p="ConfigurationExtensions.cs" t="Include" />
+        <e p="Controllers" t="Include">
+          <e p="AuthController.cs" t="Include" />
+          <e p="InfoOutputController.cs" t="Include" />
+          <e p="ValuesChangingController.cs" t="Include" />
+        </e>
+        <e p="Database" t="Include">
+          <e p="DBSeedsCreation.cs" t="Include" />
+          <e p="Functional" t="Include">
+            <e p="DBGetStuff.cs" t="Include" />
+            <e p="GetId.cs" t="Include" />
+          </e>
+          <e p="ModelBuilderExtensions.cs" t="Include" />
+          <e p="SSOContext.cs" t="Include" />
+          <e p="Seeds" t="Include">
+            <e p="CompanyAirportsSeed.cs" t="Include" />
+            <e p="CompanySeed.cs" t="Include" />
+            <e p="PermissionSeed.cs" t="Include" />
+            <e p="RolePermissionSeed.cs" t="Include" />
+            <e p="RoleSeed.cs" t="Include" />
+            <e p="UserParamsSeed.cs" t="Include" />
+            <e p="UserRoleSeed.cs" t="Include" />
+            <e p="UserSeed.cs" t="Include" />
+          </e>
+        </e>
+        <e p="DatabaseControllers" t="Include">
+          <e p="CompaniesController.cs" t="Include" />
+          <e p="CompanyAirportsController.cs" t="Include" />
+          <e p="InviteRolesController.cs" t="Include" />
+          <e p="InvitesController.cs" t="Include" />
+          <e p="PermissionsController.cs" t="Include" />
+          <e p="RolePermissionsController.cs" t="Include" />
+          <e p="RolesController.cs" t="Include" />
+          <e p="UserParametersController.cs" t="Include" />
+          <e p="UserRolesController.cs" t="Include" />
+          <e p="UsersController.cs" t="Include" />
+        </e>
+        <e p="Dockerfile" t="Include" />
+        <e p="ErrorHandlingMiddleware.cs" t="Include" />
+        <e p="Models" t="Include">
+          <e p="ConfigModel.cs" t="Include" />
+          <e p="DatabaseModels" t="Include">
+            <e p="Company.cs" t="Include" />
+            <e p="CompanyAirports.cs" t="Include" />
+            <e p="Invite.cs" t="Include" />
+            <e p="InviteRole.cs" t="Include" />
+            <e p="Permission.cs" t="Include" />
+            <e p="Role.cs" t="Include" />
+            <e p="RolePermission.cs" t="Include" />
+            <e p="User.cs" t="Include" />
+            <e p="UserParams.cs" t="Include" />
+            <e p="UserRole.cs" t="Include" />
+          </e>
+          <e p="Errors" t="Include">
+            <e p="ErrorModel.cs" t="Include" />
+            <e p="SuccessCustomException.cs" t="Include" />
+          </e>
+          <e p="InputPermissionModel.cs" t="Include" />
+          <e p="OutputPermissionModel.cs" t="Include" />
+          <e p="PermissionsIdModel.cs" t="Include" />
+          <e p="RolesIdModel.cs" t="Include" />
+          <e p="TokenModel.cs" t="Include" />
+          <e p="UserInfoModel.cs" t="Include" />
+        </e>
+        <e p="PostgreSQL_config.txt" t="Include" />
+        <e p="Postman_variables.txt" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p=".appsettings.json" t="Include" />
+          <e p="appsettings.Development.json" t="Include" />
+          <e p="appsettings.json" t="Include" />
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="README.md" t="Include" />
+        <e p="Routes.cs" t="Include" />
+        <e p="SSO.csproj" t="IncludeRecursive" />
+        <e p="SSO.postman_collection.json" t="Include" />
+        <e p="Services" t="Include">
+          <e p="Abstract" t="Include">
+            <e p="IDateSet.cs" t="Include" />
+            <e p="IGetToken.cs" t="Include" />
+            <e p="IGetUserInfo.cs" t="Include" />
+            <e p="IPermissionAccessCheck.cs" t="Include" />
+            <e p="IPermissionCheck.cs" t="Include" />
+            <e p="ISetPermissionsToRole.cs" t="Include" />
+            <e p="ISetUserRoles.cs" t="Include" />
+            <e p="ITokenCheck.cs" t="Include" />
+            <e p="ITokenRefresh.cs" t="Include" />
+          </e>
+          <e p="Realisation" t="Include">
+            <e p="GetToken.cs" t="Include" />
+            <e p="GetUserInfo.cs" t="Include" />
+            <e p="PermissionAccessCheck.cs" t="Include" />
+            <e p="PermissionCheck.cs" t="Include" />
+            <e p="SetPermissionsToRole.cs" t="Include" />
+            <e p="SetUserRoles.cs" t="Include" />
+            <e p="TokenCheck.cs" t="Include" />
+            <e p="TokenRefresh.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="docker-compose.yml" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="SSO.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="SSO.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
